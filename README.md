@@ -1,6 +1,8 @@
 # Benchmarking methods for mapping functional connectivity in the brain
 This repository contains code and data in support of "Benchmarking methods for mapping functional connectivity in the brain", now up on [bioRxiv](https://www.biorxiv.org/content/10.1101/2024.05.07.593018v1).
 
+Due to the size limit, the raw data files are not included in this repository. You can download them from the OSF repository [here](https://osf.io/75je2).
+
 ## `code`
 The [code](code/) folder contains relevant scripts used to run the analyses and generate the figures.
 
@@ -25,7 +27,7 @@ A description of each file follows (in an order that complements the manuscript)
 
 ## `data`
 
-The [data](data/) folder contains data files used for the analyses. Due to the size limit, the raw data files are not included in this repository. You can download them from the OSF repository [here](https://osf.io/75je2).
+The [data](data/) folder contains data files used for the analyses. Please download files you need from the OSF repository [here](https://osf.io/75je2) for replication.
 
 - [data/derivatives](data/derivatives) contains some key variables used in the analyses. You probably only need these to run the analysis scripts in the [code](code/) folder.
 - [data/raw](data/raw) contains raw pyspi outputs and some additional data files.
